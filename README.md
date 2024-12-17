@@ -19,3 +19,4 @@ This is a personal portfolio project built using **React** and **Chakra UI**. It
 - **Project Showcase** – A collection of projects I've worked on.
 
 ## 💼 Link to live site
+**https://cv-portfolio-phi.vercel.app/**
