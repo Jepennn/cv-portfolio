@@ -14,6 +14,17 @@ export function Projects() {
           Here are some of the projects I have been working on. Click on the
           buttons to get to the repositories or live app. Be aware that some of
           the live apps are slow to load since free tier.
+          <span
+            style={{
+              display: "block",
+              marginTop: "5px",
+              fontSize: "0.8rem",
+              color: "grey",
+            }}
+          >
+            (Be aware that projects are hosted on free servers which make the
+            applications slow. Around 45 sek to start up)
+          </span>
         </Heading>
       </Box>
       <Flex
