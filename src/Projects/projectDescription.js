@@ -35,7 +35,7 @@ export const MERN_TODOLIST_TECH = [
 //Filmdle data
 export const FILMDLE_TITLE = "Filmdle";
 export const FILMDLE_DESCRIPTION =
-  "Project built with MVP architecture.Remember a lot of the famous Wordle game but for movies.Group project for the course DH2642.";
+  "Project built with MVP architecture.Reminds a lot of the famous Wordle game but for movies. This was a group project for the course DH2642.";
 export const FILMDLE_LINK =
   "https://gits-15.sys.kth.se/iprog-students/danielo2-jespersh-petternb-trydow-HT24-Project/tree/alltidnicemednybranch";
 export const FILMDLE_LIVE_APP = "https://filmdle.web.app/";
