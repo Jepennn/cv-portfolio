@@ -10,17 +10,17 @@ import {
 
 export function MernTodoCard() {
   return (
-    <Card.Root maxW="sm" overflow="hidden" borderWidth="1px" borderRadius="lg">
+    <Card.Root maxW={375} overflow="hidden" borderWidth="1px" borderRadius="lg">
       <Image
         objectFit="contain"
         maxW={450}
         maxH={500}
         src={MERN_TODOLIST_IMG}
       />
-      <Card.Body gap="2">
+      <Card.Body borderTopWidth="1px">
         <Card.Title>{MERN_TODOLIST_TITLE}</Card.Title>
         <Card.Description mb={5}>{MERN_TODOLIST_DESCRIPTION}</Card.Description>
-        <Stack direction="row" gap={2}>
+        <Stack direction="row" gap={2} mb={2}>
           <Badge colorPalette="cyan">{MERN_TODOLIST_TECH[0]}</Badge>
           <Badge colorPalette="blue">{MERN_TODOLIST_TECH[5]}</Badge>
           <Badge colorPalette="gray">{MERN_TODOLIST_TECH[1]}</Badge>

@@ -1,5 +1,6 @@
 import { Flex, Heading, Box } from "@chakra-ui/react";
-import { WheatherAppCard } from "./wheatherAppCard.jsx";
+// import { WheatherAppCard } from "./wheatherAppCard.jsx";
+import { RecipeTinder } from "./recipeTinder.jsx";
 import { MernTodoCard } from "./mernTodoCard.jsx";
 import { FilmdleCard } from "./filmdle.jsx";
 
@@ -33,9 +34,10 @@ export function Projects() {
         gap={10}
         wrap="wrap"
       >
-        <WheatherAppCard />
+        {/* <WheatherAppCard /> */}
         <MernTodoCard />
         <FilmdleCard />
+        <RecipeTinder />
       </Flex>
     </Box>
   );

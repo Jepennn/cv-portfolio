@@ -41,3 +41,12 @@ export const FILMDLE_LINK =
 export const FILMDLE_LIVE_APP = "https://filmdle.web.app/";
 export const FILMDLE_IMG = "/filmdle.png";
 export const FILMDLE_TECH = ["React.js", "Redux", "CSS", "Firebase"];
+
+//Wheather App data
+export const FOODSWIPE_TITLE = "FoodSwipe";
+export const FOODSWIPE_DESCRIPTION =
+  "A recipe that lets you swipe through recipes and save your favorites.Version one, plan to extend the API and also to implement an AI feature that suggests recipes based on your liked ones.";
+export const FOODSWIPE_LINK = "https://github.com/Jepennn/FoodSwipe";
+export const FOODSWIPE_LIVE_APP = "https://recipe-tinder-peach.vercel.app/";
+export const FOODSWIPE_IMG = "/foodswipe.png";
+export const FOODSWIPE_TECH = ["React.js", "Redux", "CSS", "Supabase"];

@@ -10,9 +10,9 @@ import {
 
 export function FilmdleCard() {
   return (
-    <Card.Root maxW="sm" overflow="hidden" borderWidth="1px" borderRadius="lg">
+    <Card.Root maxW={375} overflow="hidden" borderWidth="1px" borderRadius="lg">
       <Image objectFit="contain" maxW={450} maxH={500} src={FILMDLE_IMG} />
-      <Card.Body gap="2">
+      <Card.Body borderTopWidth="1px">
         <Card.Title>{FILMDLE_TITLE}</Card.Title>
         <Card.Description mb={5}>{FILMDLE_DESCRIPTION}</Card.Description>
         <Flex direction="row" wrap={"wrap"} gap={2}>
