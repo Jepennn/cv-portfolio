@@ -39,6 +39,7 @@ export function Profil() {
           borderStyle="solid"
           borderRadius="full"
           fit="cover"
+          className="profile-image"
         />
       </Box>
     </Flex>

@@ -22,3 +22,11 @@ svg {
 svg:hover {
   scale: 1.1;
 }
+
+.profile-image {
+  transition: transform 2s;
+}
+
+.profile-image:hover {
+  transform: rotate(360deg);
+}
